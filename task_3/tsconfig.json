@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es6",                     // O la versión que prefieras
+      "module": "commonjs",                // O el sistema de módulos que prefieras
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["**/*.ts"],                // Incluye todos los archivos .ts
+    "exclude": ["node_modules"]            // Excluye node_modules
+  }
